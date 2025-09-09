@@ -1,12 +1,12 @@
-const Apify = require('apify');
+const { Actor } = require('apify');
 
-Apify.main(async () => {
+Actor.main(async () => {
     console.log('🚀 SecurityNexus-AI Enterprise Security Platform Starting...');
     console.log('💰 Market Opportunity: $72 Billion Annually');
     console.log('🛡️ AI-Powered Threat Intelligence & Security Automation');
     
     // Get input parameters
-    const input = await Apify.getInput() || {};
+    const input = await Actor.getInput() || {};
     const maxThreats = input.maxThreats || 25;
     
     console.log(`📊 Analyzing ${maxThreats} enterprise security threats...`);
@@ -87,7 +87,7 @@ Apify.main(async () => {
     };
     
     // Save comprehensive results
-    await Apify.pushData(securityReport);
+    await Actor.pushData(securityReport);
     
     // Final revenue summary
     console.log('');
@@ -100,3 +100,6 @@ Apify.main(async () => {
     console.log('💎 Enterprise Security Automation Complete!');
     console.log('');
 });
+
+
+    
