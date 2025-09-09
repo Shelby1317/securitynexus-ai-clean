@@ -1,0 +1,36 @@
+{
+  "name": "securitynexus-ai",
+  "version": "1.0.0",
+  "description": "Enterprise AI security automation platform with threat intelligence, vulnerability scanning, and revenue optimization. $72B market opportunity.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"SecurityNexus-AI Enterprise Platform\" && exit 0"
+  },
+  "keywords": [
+    "cybersecurity",
+    "threat-intelligence",
+    "enterprise-security",
+    "ai-automation",
+    "vulnerability-scanning",
+    "security-operations",
+    "revenue-optimization",
+    "apify-actor"
+  ],
+  "author": "SecurityNexus-AI",
+  "license": "MIT",
+  "dependencies": {
+    "apify": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shelby1317/SecurityNexus-AI.git"
+  },
+  "homepage": "https://github.com/Shelby1317/SecurityNexus-AI",
+  "bugs": {
+    "url": "https://github.com/Shelby1317/SecurityNexus-AI/issues"
+  }
+}
