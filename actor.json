@@ -1,0 +1,24 @@
+{
+  "actorSpecification": 1,
+  "name": "securitynexus-ai",
+  "title": "SecurityNexus-AI Enterprise Security Platform",
+  "description": "AI-powered enterprise security automation with threat intelligence, vulnerability scanning, and real-time analysis. Revenue model: $0.50-2.25 per threat. $72B market opportunity.",
+  "version": "1.0.0",
+  "meta": {
+    "templateId": "javascript-node"
+  },
+  "categories": ["SECURITY", "BUSINESS_INTELLIGENCE", "MONITORING"],
+  "isPublic": true,
+  "seoTitle": "Enterprise AI Security Automation - SecurityNexus-AI",
+  "seoDescription": "Professional threat intelligence and security automation for enterprises. AI-powered analysis, real-time monitoring, revenue optimization.",
+  "tags": [
+    "cybersecurity",
+    "threat-intelligence",
+    "enterprise-security",
+    "ai-automation",
+    "vulnerability-scanning",
+    "security-operations",
+    "business-intelligence",
+    "revenue-optimization"
+  ]
+}
