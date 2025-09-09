@@ -1,0 +1,16 @@
+{
+  "title": "SecurityNexus-AI Enterprise Security Configuration",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "maxThreats": {
+      "title": "Maximum Threats to Analyze",
+      "type": "integer",
+      "description": "Number of security threats to analyze and process. Higher numbers generate more revenue but require longer processing time.",
+      "default": 25,
+      "minimum": 10,
+      "maximum": 200
+    }
+  },
+  "required": []
+}
